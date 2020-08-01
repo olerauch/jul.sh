@@ -5,8 +5,8 @@ const GlobalStyles = createGlobalStyle`
     font-size: 24px;
 
     /* fonts */
-    --primaryFont: 'Neue Kabel', monospace;
-    --sansFont: 'Neue Kabel', sans-serif;
+    --primaryFont: NeueKabel-Regular, monospace;
+    --sansFont: 'NeueKabel-Regular', sans-serif;
 
     /* colors */
     --background-color: hsl(210, 3%, 85%);
