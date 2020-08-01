@@ -10,29 +10,7 @@ const WEBFONTS = `
 
 @font-face {
   font-family: 'NeueKabel-Regular';
-  src: url('webFonts/NeueKabel-Regular/font.woff2') format('woff2'), url('webFonts/NeueKabel-Regular/font.woff') format('woff');
-}
-
-@font-face {
-  font-family: 'Juliette';
-  src: url('${FONTS.regular}') format('woff2');
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Juliette';
-  src: url('${FONTS.bold}') format('woff2');
-  font-weight: bold;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Juliette Sans';
-  src: url('${FONTS.sans}') format('woff2');
-  font-weight: bold;
+  src: url('webFonts/NeueKabel-Regular/font.woff2') format('woff2'), url('webFonts/NeueKabel-Regular/font.woff') format('woff');  font-weight: normal;
   font-style: normal;
   font-display: swap;
 }
