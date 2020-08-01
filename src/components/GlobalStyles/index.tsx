@@ -20,7 +20,7 @@ const GlobalStyles = createGlobalStyle`
     --lowTranslucentOrange: hsla(24, 86%, 73%, 0.2);
     --blue: hsl(209, 36%, 70%);
     --lightBlue: hsl(179, 40%, 70%);
-    --green: hsl(152, 25%, 53%);
+    --green: hsl(51, 41%, 3%);
     --translucentGreen: hsla(153, 36%, 59%, 0.6);
 
     /* sizing */
