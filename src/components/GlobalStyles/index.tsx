@@ -5,8 +5,8 @@ const GlobalStyles = createGlobalStyle`
     font-size: 24px;
 
     /* fonts */
-    --primaryFont: Arial, monospace;
-    --sansFont: 'Arial', sans-serif;
+    --primaryFont: Manier, monospace;
+    --sansFont: 'Manier', sans-serif;
 
     /* colors */
     --background-color: hsl(210, 3%, 85%);
