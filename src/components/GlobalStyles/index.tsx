@@ -10,7 +10,7 @@ const GlobalStyles = createGlobalStyle`
 
     /* colors */
     --background-color: hsl(210, 3%, 85%);
-    --pink: hsl(0, 82%, 85%);
+    --pink: hsl(51, 41%, 3%);
     --lightGray: hsl(0, 31%, 85%);
     --gray: hsl(0, 6%, 63%);
     --translucentGray: hsla(0, 6%, 63%, 0.6);
