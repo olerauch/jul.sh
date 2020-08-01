@@ -2,8 +2,6 @@ import React from 'react'
 
 const FONTS = {
   regular: '/fonts/font.woff2',
-  bold: '/fonts/font.woff2',
-  sans: '/fonts/font.woff2'
 }
 
 const WEBFONTS = `
@@ -15,8 +13,7 @@ const WEBFONTS = `
   font-display: swap;
 }
 `
-  // strip linebreaks
-  .replace(/[\n\r]+ */g, ' ')
+
 
 const GREETING = `/*
 
