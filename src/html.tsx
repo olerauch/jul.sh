@@ -1,19 +1,43 @@
 import React from 'react'
 
 const FONTS = {
+  regular: '/fonts/jregular.woff2',
+  bold: '/fonts/jbold.woff2',
+  sans: '/fonts/jsans.woff2'
   regular: '/fonts/font.woff2',
+  bold: '/fonts/font.woff2',
+  sans: '/fonts/font.woff2'
 }
 
 const WEBFONTS = `
-
 @font-face {
   font-family: 'NeueKabel-Regular';
-  src: url('webFonts/NeueKabel-Regular/font.woff2') format('woff2'), url('webFonts/NeueKabel-Regular/font.woff') format('woff');  font-weight: normal;
+  src: url('webFonts/NeueKabel-Regular/font.woff2') format('woff2'), url('webFonts/NeueKabel-Regular/font.woff') format('woff');
+}
+@font-face {
+  font-family: 'Juliette';
+  src: url('${FONTS.regular}') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Juliette';
+  src: url('${FONTS.bold}') format('woff2');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Juliette Sans';
+  src: url('${FONTS.sans}') format('woff2');
+  font-weight: bold;
   font-style: normal;
   font-display: swap;
 }
 `
-
+  // strip linebreaks
+  .replace(/[\n\r]+ */g, ' ')
 
 const GREETING = `/*
 
