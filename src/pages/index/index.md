@@ -1,7 +1,7 @@
 ---
 templateKey: IndexPage
 title: Nice to meet you too
-featuredImage: ./me.jpg
+featuredImage: ./ole.jpg
 style: index
 ---
 
