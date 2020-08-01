@@ -92,7 +92,7 @@ const Navbar: React.FunctionComponent<{
         to="/career"
         isActive={new RegExp('^/career').test(pathname)}
         Icon={(props: IconProps) => <ResumeIcon {...props} />}
-        label="Resume"
+        label="CV"
       />
     </InnerNavbarWrapper>
   </NavbarWrapper>
