@@ -9,7 +9,7 @@ const GlobalStyles = createGlobalStyle`
     --sansFont: 'Neue Kabel', serif;
 
     /* colors */
-    --background-color: hsl(210, 3%, 85%);
+    --background-color: hsl(0, 100%, 100%);
     --pink: hsl(51, 41%, 3%);
     --lightGray: hsl(0, 31%, 85%);
     --gray: hsl(0, 6%, 63%);
