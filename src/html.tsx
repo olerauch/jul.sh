@@ -1,12 +1,17 @@
 import React from 'react'
 
 const FONTS = {
-  regular: '/fonts/jregular.woff2',
+  regular: '/fonts/font.woff2',
   bold: '/fonts/jbold.woff2',
   sans: '/fonts/jsans.woff2'
 }
 
 const WEBFONTS = `
+  @font-face {
+      font-family: 'c';
+      src: url('webFonts/NeueKabel-Regular/font.woff2') format('woff2'), url('webFonts/NeueKabel-Regular/font.woff') format('woff');
+    }
+
 @font-face {
   font-family: 'Juliette';
   src: url('${FONTS.regular}') format('woff2');
