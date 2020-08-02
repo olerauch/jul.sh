@@ -5,8 +5,8 @@ const GlobalStyles = createGlobalStyle`
     font-size: 24px;
 
     /* fonts */
-    --primaryFont: Garamond, monospace;
-    --sansFont: 'Garamond', serif;
+    --primaryFont: Times, monospace;
+    --sansFont: 'Times', serif;
 
     /* colors */
     --background-color: hsl(210, 3%, 85%);
