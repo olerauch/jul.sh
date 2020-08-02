@@ -224,7 +224,7 @@ const GlobalStyles = createGlobalStyle`
     h1,
     h2,
     h3 {
-      word-spacing: -0.3ch;
+      word-spacing: 0ch;
       word-spacing: initial;
     }
   }
