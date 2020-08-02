@@ -5,8 +5,8 @@ const GlobalStyles = createGlobalStyle`
     font-size: 24px;
 
     /* fonts */
-    --primaryFont: Times, monospace;
-    --sansFont: 'Times', serif;
+    --primaryFont: Neue Kabel-Regular, monospace;
+    --sansFont: 'Neue Kabel-Regular', serif;
 
     /* colors */
     --background-color: hsl(210, 3%, 85%);
