@@ -8,7 +8,7 @@ const FONTS = {
 
 const WEBFONTS = `
  @font-face {
-  font-family: 'Neue Kabel-Regular';
+  font-family: 'Neue Kabel';
   src: url('webFonts/NeueKabel-Regular/font.woff2') format('woff2'), url('webFonts/NeueKabel-Regular/font.woff') format('woff');
   font-weight: normal;
   font-style: normal;
