@@ -84,7 +84,6 @@ const GlobalStyles = createGlobalStyle`
     font-family: var(--primaryFont);
     font-feature-settings: 'calt' 1;
     font-variant-ligatures: contextual;
-    word-spacing: -0.25ch;
     line-height: 1.4;
 
     ${({ isApp }: { isApp: Boolean }) =>
