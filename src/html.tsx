@@ -7,32 +7,13 @@ const FONTS = {
 }
 
 const WEBFONTS = `
-  @font-face {
-      font-family: 'c';
-      src: url('webFonts/NeueKabel-Regular/font.woff2') format('woff2'), url('webFonts/NeueKabel-Regular/font.woff') format('woff');
-    }
-
-@font-face {
-  font-family: 'Juliette';
-  src: url('${FONTS.regular}') format('woff2');
+ @font-face {
+  font-family: 'Neue Kabel-Regular';
+  src: url('webFonts/NeueKabel-Regular/font.woff2') format('woff2'), url('webFonts/NeueKabel-Regular/font.woff') format('woff');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
-}
-@font-face {
-  font-family: 'Juliette';
-  src: url('${FONTS.bold}') format('woff2');
-  font-weight: bold;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: 'Juliette Sans';
-  src: url('${FONTS.sans}') format('woff2');
-  font-weight: bold;
-  font-style: normal;
-  font-display: swap;
-}
+    }
 `
   // strip linebreaks
   .replace(/[\n\r]+ */g, ' ')
